@@ -122,7 +122,8 @@ public enum Protocol
                     map( ProtocolConstants.MINECRAFT_1_12_1, 0x42 ),
                     map( ProtocolConstants.MINECRAFT_1_13, 0x45 ),
                     map( ProtocolConstants.MINECRAFT_1_14, 0x49 ),
-                    map( ProtocolConstants.MINECRAFT_1_15, 0x4A )
+                    map( ProtocolConstants.MINECRAFT_1_15, 0x4A ),
+                    map( ProtocolConstants.MINECRAFT_20_W_12_A_SNAPSHOT, 0x4B )
             );
             TO_CLIENT.registerPacket(
                     ScoreboardScore.class,
@@ -132,7 +133,8 @@ public enum Protocol
                     map( ProtocolConstants.MINECRAFT_1_12_1, 0x45 ),
                     map( ProtocolConstants.MINECRAFT_1_13, 0x48 ),
                     map( ProtocolConstants.MINECRAFT_1_14, 0x4C ),
-                    map( ProtocolConstants.MINECRAFT_1_15, 0x4D )
+                    map( ProtocolConstants.MINECRAFT_1_15, 0x4D ),
+                    map( ProtocolConstants.MINECRAFT_20_W_12_A_SNAPSHOT, 0x4E )
             );
             TO_CLIENT.registerPacket(
                     ScoreboardDisplay.class,
@@ -142,7 +144,8 @@ public enum Protocol
                     map( ProtocolConstants.MINECRAFT_1_12_1, 0x3B ),
                     map( ProtocolConstants.MINECRAFT_1_13, 0x3E ),
                     map( ProtocolConstants.MINECRAFT_1_14, 0x42 ),
-                    map( ProtocolConstants.MINECRAFT_1_15, 0x43 )
+                    map( ProtocolConstants.MINECRAFT_1_15, 0x43 ),
+                    map( ProtocolConstants.MINECRAFT_20_W_12_A_SNAPSHOT, 0x44 )
             );
             TO_CLIENT.registerPacket(
                     Team.class,
@@ -152,7 +155,8 @@ public enum Protocol
                     map( ProtocolConstants.MINECRAFT_1_12_1, 0x44 ),
                     map( ProtocolConstants.MINECRAFT_1_13, 0x47 ),
                     map( ProtocolConstants.MINECRAFT_1_14, 0x4B ),
-                    map( ProtocolConstants.MINECRAFT_1_15, 0x4C )
+                    map( ProtocolConstants.MINECRAFT_1_15, 0x4C ),
+                    map( ProtocolConstants.MINECRAFT_20_W_12_A_SNAPSHOT, 0x4D )
             );
             TO_CLIENT.registerPacket(
                     PluginMessage.class,
